@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Profile Setup</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <div class="outer">
+    <section>
+      <div class="top text-center" >
+        <h2>Sign Up</h2>
+      </div>
+      <div class="title">
+        <div class="flexone text-center">
+          <input type="radio" name="position" value="admin" id="admin">
+          <label for="admin">admin</label>
+        </div>
+        <div class="flexone text-center">
+        <input type="radio" name="position" value="personal" id="personal">
+        <label for="personal">personal</label>
+         </div>
+        <div class="flexone text-center">
+        <input type="radio" name="position" value="guest" id="guest">
+        <label for="guest">guest</label>
+       </div>
+      </div>
+      <div class="information">
+        <div class="flexchild">
+      
+        <label>name</label>
+        <input type="text" name="name" class="info">
+      </div>
+        <div class="flexchild">
+          <label>email address </label>
+          <input type="text" name="email" class="info">
+        </div>
+      <div class="flexchild">
+        <label>password</label>
+        <input type="password" name="password" class="info">
+      </div>
+      <div class="flexchild">
+        <label>confirm password</label>
+        <input type="password" name="passconformation" class="info">
+      </div>
+  </div>
+      <div class="bottom">
+        <h5>profile picture</h5>
+        <input type="file" name="photo" id="photo">
+        <input type="submit" name="signup" value="signup">
+      </div>
+    </section>
+  </div>
+</body>
+</html>
